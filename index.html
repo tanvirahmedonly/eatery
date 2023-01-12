@@ -15,12 +15,12 @@
   <header class="bg-transparent sticky top-0">
     <div class="container mx-auto sm:px-6 sm:py-7 px-4 py-3">
       <!-- lg header start -->
-      <nav class="flex items-center bg-transparent">
+      <nav class="flex items-center bg-transparent" id="header_lg">
 
         <!-- logo start -->
         <div class="basis-1/5">
           <a href="index.html">
-            <h1 class="uppercase text-white text-xl tracking-widest">EATERY</h1>
+            <h1 class="uppercase text-white text-xl tracking-widest c_remove_text_white">EATERY</h1>
           </a>
         </div>
         <!-- logo end -->
@@ -35,11 +35,11 @@
 
         <div class="lg:basis-3/5">
           <ul class="hidden lg:inline 2xl:mx-60 xl:mx-40 lg:mx-24">
-            <li class="inline list-none uppercase px-2 text-white"><a href="#">Home</a></li>
-            <li class="inline list-none uppercase px-2 text-white"><a href="#">Recipes</a></li>
-            <li class="inline list-none uppercase px-2 text-white"><a href="#">Services</a></li>
-            <li class="inline list-none uppercase px-2 text-white"><a href="#">About</a></li>
-            <li class="inline list-none uppercase px-2 text-white"><a href="#">News</a></li>
+            <li class="inline list-none uppercase px-2 text-white c_remove_text_white"><a href="#">Home</a></li>
+            <li class="inline list-none uppercase px-2 text-white c_remove_text_white"><a href="#">Recipes</a></li>
+            <li class="inline list-none uppercase px-2 text-white c_remove_text_white"><a href="#">Services</a></li>
+            <li class="inline list-none uppercase px-2 text-white c_remove_text_white"><a href="#">About</a></li>
+            <li class="inline list-none uppercase px-2 text-white c_remove_text_white"><a href="#">News</a></li>
           </ul>
         </div>
 
@@ -106,7 +106,7 @@
   </section>
   <!-- hero end -->
   <!-- features start -->
-  <section class="lg:my-20 md:my-16 my-12">
+  <section class="lg:py-20 md:py-16 py-12 bg-gray-100">
     <div class="container mx-auto sm:px-6 px-4">
       <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1">
         <div class="text-center 2xl:px-20 xl:px-12 lg:px-5 md:px-1 sm:px-8 px-0">
@@ -135,15 +135,113 @@
   <!-- features end -->
   <!-- dishes section start -->
   <section class="lg:my-20 md:my-16 my-12">
-    <div>
+    <div class="container mx-auto sm:px-6 px-4">
+
       <div class="text-center">
         <img class="w-20 mx-auto" src="images/substract.png" alt="tanvir notes">
-        <h2 class="uppercase text-3xl text-[#cf1d16] font-bold mt-7">Special Dishes</h2>
+        <h2 class="uppercase md:text-3xl text-2xl text-[#cf1d16] font-bold xl:mt-7 md:mt-5 mt-4">Special Dishes</h2>
       </div>
-      <div></div>
+
+      <div class="lg:flex sm:grid sm:grid-cols-2 gap-4 items-center xl:my-20 lg:my-16 md:my-14 my-8">
+
+        <div class="lg:basis-1/3 relative sm:mb-0 mb-4">
+          <img class="relative inset-0 h-full w-full object-cover mix-blend-darken" src="images/dishes_1.jpg" alt="tanvir notes">
+          <div class="absolute inset-0 h-full w-full flex items-center justify-center text-center">
+            <div>
+              <button class="rounded-full xl:px-5 xl:py-7 px-3 py-6 text-white bg-[#cf1d16] border-[#cf1d16]">$11.50</button>
+              <h3 class="text-white xl:text-3xl md:text-2xl text-xl uppercase font-semibold py-3 leading-10">Organic tomato salad</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:basis-1/3 relative sm:mb-0 mb-4">
+          <img class="relative inset-0 h-full w-full object-cover mix-blend-darken" src="images/dishes_2.jpg" alt="tanvir notes">
+          <div class="absolute inset-0 h-full w-full flex items-center justify-center text-center">
+            <div>
+              <button class="rounded-full xl:px-5 xl:py-7 px-3 py-6 text-white bg-[#cf1d16] border-[#cf1d16]">$12.00</button>
+              <h3 class="text-white xl:text-3xl md:text-2xl sm:text-xl uppercase font-semibold py-3 leading-10">Baked Broccoli</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:basis-1/3 relative">
+          <img class="relative inset-0 h-full w-full object-cover mix-blend-darken" src="images/dishes_3.jpg" alt="tanvir notes">
+          <div class="absolute inset-0 h-full w-full flex items-center justify-center text-center">
+            <div>
+              <button class="rounded-full xl:px-5 xl:py-7 px-3 py-6 text-white bg-[#cf1d16] border-[#cf1d16]">$13.50</button>
+              <h3 class="text-white xl:text-3xl md:text-2xl sm:text-xl uppercase font-semibold py-3 leading-10">Cheese Capers</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
   <!-- dishes section end -->
+  <!-- menu section start -->
+  <section class="lg:py-20 md:py-16 py-12 bg-gray-100">
+    <div class="container mx-auto sm:px-6 px-4">
+
+      <div class="text-center">
+        <img class="w-20 mx-auto" src="images/substract.png" alt="tanvir notes">
+        <h2 class="uppercase md:text-3xl text-2xl text-[#cf1d16] font-bold xl:mt-7 md:mt-5 mt-4">Our Menu</h2>
+      </div>
+
+      <div class="grid grid-cols-2 xl:my-20 lg:my-16 md:my-14 my-8">
+        <div>
+
+          <div class="grid grid-cols-2">
+            <div class="py-6 px-7 bg-white">
+              <h5 class="text-black text-2xl font-medium">Grilled Caesar salad, shaved reggiano</h5>
+              <p class="text-[#868e96] py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
+              <p class="text-[#cf1d16] text-2xl">$12.00</p>
+            </div>
+            <div>
+              <img class="h-full" src="images/dishes_1.jpg" alt="tanvir notes">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2">
+            <div>
+              <img class="h-full" src="images/dishes_2.jpg" alt="tanvir notes">
+            </div>
+            <div class="py-6 px-7 bg-white">
+              <h5 class="text-black text-2xl font-medium">Grilled Caesar salad, shaved reggiano</h5>
+              <p class="text-[#868e96] py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
+              <p class="text-[#cf1d16] text-2xl">$12.00</p>
+            </div>
+          </div>
+
+        </div>
+        <div>
+
+          <div class="grid grid-cols-2">
+            <div class="py-6 px-7 bg-white">
+              <h5 class="text-black text-2xl font-medium">Grilled Caesar salad, shaved reggiano</h5>
+              <p class="text-[#868e96] py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam...</p>
+              <p class="text-[#cf1d16] text-2xl">$12.00</p>
+            </div>
+            <div>
+              <img class="h-full" src="images/dishes_3.jpg" alt="tanvir notes">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2">
+            <div>
+              <img class="h-full" src="images/dishes_4.jpg" alt="tanvir notes">
+            </div>
+            <div class="py-6 px-7 bg-white">
+              <h5 class="text-black text-2xl font-medium">Grilled Caesar salad, shaved reggiano</h5>
+              <p class="text-[#868e96] py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
+              <p class="text-[#cf1d16] text-2xl">$12.00</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- menu section end -->
 
 
 
@@ -195,7 +293,27 @@
       }
     });
 
-  // header navigation end
+    // header navigation end
+
+    // sticky header start
+    window.addEventListener('scroll', function () {
+      var header = document.getElementById('header_lg');
+      var cRemoveWhite = document.getElementsByClassName('c_remove_text_white');
+      if (window.pageYOffset > window.innerHeight) {
+        header.classList.add('bg-white');
+        for (let i = 0; i < cRemoveWhite.length; i++){
+          cRemoveWhite[i].classList.remove('text-white');
+          cRemoveWhite[i].classList.add('text-black');
+        }
+      } else {
+        header.classList.remove('bg-white');
+        for (let i = 0; i < cRemoveWhite.length; i++){
+          cRemoveWhite[i].classList.add('text-white');
+          cRemoveWhite[i].classList.remove('text-black');
+        }
+      }
+    });
+    // sticky header end
   </script>
 
 </body>
