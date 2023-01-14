@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/all.min.css">
 
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <title>Eatery - a Tailwind CSS project</title>
@@ -12,10 +13,10 @@
 
 <body>
   <!-- header start -->
-  <header class="bg-transparent sticky top-0">
+  <header class="bg-transparent sticky top-0" id="header_lg">
     <div class="container mx-auto sm:px-6 sm:py-7 px-4 py-3">
       <!-- lg header start -->
-      <nav class="flex items-center bg-transparent" id="header_lg">
+      <nav class="flex items-center bg-transparent">
 
         <!-- logo start -->
         <div class="basis-1/5">
@@ -97,7 +98,7 @@
     <div class="container mx-auto sm:px-6 px-4">
       <div class="2xl:py-96 xl:py-64 lg:py-56 md:py-36 sm:py-28 py-[30vh] text-center">
         <h1 class="uppercase text-white font-bold text-4xl mb-3">Expert Chefs</h1>
-        <p class="text-white mb-10 2xl:px-[400px] xl:px-[370px] lg:px-[200px] md:px-[50px] px-0">Lorem ipsum dolor sit amet, consectetur adipisicing
+        <p class="text-white mb-10 2xl:px-[400px] xl:px-[370px] lg:px-[200px] md:px-[50px] px-0 text-lg leading-8">Lorem ipsum dolor sit amet, consectetur adipisicing
           elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
         <a class="px-4 py-3 bg-transparent text-white border border-white uppercase hover:text-black hover:bg-white transition"
           href="#">Get Started</a>
@@ -106,28 +107,28 @@
   </section>
   <!-- hero end -->
   <!-- features start -->
-  <section class="lg:py-20 md:py-16 py-12 bg-gray-100">
+  <section class="lg:py-20 md:py-16 py-12 bg-gray-50">
     <div class="container mx-auto sm:px-6 px-4">
       <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1">
         <div class="text-center 2xl:px-20 xl:px-12 lg:px-5 md:px-1 sm:px-8 px-0">
           <img class="h-16 w-16 mx-auto" src="images/champagne-glass.png" alt="tanvir notes">
           <h5 class="text-xl text-[#cf1d16] font-medium mt-5 mb-2">Drinks</h5>
-          <p class="text-[#868e96]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+          <p class="text-[#868e96] text-lg leading-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
         </div>
         <div class="text-center 2xl:px-20 xl:px-12 lg:px-5 md:px-1 sm:px-8 px-0 sm:mt-0 mt-8">
           <img class="h-16 w-16 mx-auto" src="images/fish.png" alt="tanvir notes">
           <h5 class="text-xl text-[#cf1d16] font-medium mt-5 mb-2">Sea Foods</h5>
-          <p class="text-[#868e96]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+          <p class="text-[#868e96] text-lg leading-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
         </div>
         <div class="text-center 2xl:px-20 xl:px-12 lg:px-5 md:px-1 sm:px-8 px-0 lg:mt-0 md:mt-10 sm:mt-8 mt-8">
           <img class="h-16 w-16 mx-auto" src="images/coffee-cup.png" alt="tanvir notes">
           <h5 class="text-xl text-[#cf1d16] font-medium mt-5 mb-2">Cup Cofees</h5>
-          <p class="text-[#868e96]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+          <p class="text-[#868e96] text-lg leading-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
         </div>
         <div class="text-center 2xl:px-20 xl:px-12 lg:px-5 md:px-1 sm:px-8 px-0 lg:mt-0 md:mt-10 sm:mt-8 mt-8">
           <img class="h-16 w-16 mx-auto" src="images/restaurant.png" alt="tanvir notes">
           <h5 class="text-xl text-[#cf1d16] font-medium mt-5 mb-2">Fresh Salad</h5>
-          <p class="text-[#868e96]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+          <p class="text-[#868e96] text-lg leading-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
         </div>
       </div>
     </div>
@@ -179,7 +180,7 @@
   </section>
   <!-- dishes section end -->
   <!-- menu section start -->
-  <section class="lg:py-20 md:py-16 py-12 bg-gray-100">
+  <section class="lg:py-20 md:py-16 py-12 bg-gray-50">
     <div class="container mx-auto sm:px-6 px-4">
 
       <div class="text-center">
@@ -187,53 +188,53 @@
         <h2 class="uppercase md:text-3xl text-2xl text-[#cf1d16] font-bold xl:mt-7 md:mt-5 mt-4">Our Menu</h2>
       </div>
 
-      <div class="grid grid-cols-2 xl:my-20 lg:my-16 md:my-14 my-8">
+      <div class="grid lg:grid-cols-2 grid-cols-1 xl:my-20 lg:my-16 md:my-14 sm:my-10 my-8">
         <div>
 
-          <div class="grid grid-cols-2">
-            <div class="py-6 px-7 bg-white">
-              <h5 class="text-black text-2xl font-medium">Grilled Caesar salad, shaved reggiano</h5>
-              <p class="text-[#868e96] py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
-              <p class="text-[#cf1d16] text-2xl">$12.00</p>
+          <div class="grid sm:grid-cols-2 grid-cols-1 bg-white xl:items-center lg:items-stretch sm:items-center">
+            <div class="xl:py-8 xl:px-9 lg:py-5 lg:px-6 md:py-5 md:px-10 sm:py-4 sm:px-8 px-3 py-6 sm:text-left text-center">
+              <h5 class="text-black sm:text-2xl text-xl font-medium">Grilled Caesar Salad, Shaved Reggiano</h5>
+              <p class="text-[#868e96] sm:py-3 py-2 text-lg leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
+              <p class="text-[#cf1d16] sm:text-2xl text-xl">$12.00</p>
             </div>
             <div>
               <img class="h-full" src="images/dishes_1.jpg" alt="tanvir notes">
             </div>
           </div>
 
-          <div class="grid grid-cols-2">
-            <div>
+          <div class="grid sm:grid-cols-2 grid-cols-1 bg-white xl:items-center lg:items-stretch sm:items-center">
+            <div class="sm:order-1 order-2">
               <img class="h-full" src="images/dishes_2.jpg" alt="tanvir notes">
             </div>
-            <div class="py-6 px-7 bg-white">
-              <h5 class="text-black text-2xl font-medium">Grilled Caesar salad, shaved reggiano</h5>
-              <p class="text-[#868e96] py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
-              <p class="text-[#cf1d16] text-2xl">$12.00</p>
+            <div class="xl:py-8 xl:px-9 lg:py-5 lg:px-6 md:py-5 md:px-10 sm:py-4 sm:px-8 px-3 py-6 sm:text-left text-center sm:order-2 order-1">
+              <h5 class="text-black sm:text-2xl text-xl font-medium">Grilled Caesar Salad, Shaved Reggiano</h5>
+              <p class="text-[#868e96] sm:py-3 py-2 text-lg leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
+              <p class="text-[#cf1d16] sm:text-2xl text-xl">$12.00</p>
             </div>
           </div>
 
         </div>
         <div>
 
-          <div class="grid grid-cols-2">
-            <div class="py-6 px-7 bg-white">
-              <h5 class="text-black text-2xl font-medium">Grilled Caesar salad, shaved reggiano</h5>
-              <p class="text-[#868e96] py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam...</p>
-              <p class="text-[#cf1d16] text-2xl">$12.00</p>
+          <div class="grid sm:grid-cols-2 grid-cols-1 bg-white xl:items-center lg:items-stretch sm:items-center">
+            <div class="xl:py-8 xl:px-9 lg:py-5 lg:px-6 md:py-5 md:px-10 sm:py-4 sm:px-8 px-3 py-6 sm:text-left text-center">
+              <h5 class="text-black sm:text-2xl text-xl font-medium">Grilled Caesar Salad</h5>
+              <p class="text-[#868e96] sm:py-3 py-2 text-lg leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam...</p>
+              <p class="text-[#cf1d16] sm:text-2xl text-xl">$12.00</p>
             </div>
             <div>
               <img class="h-full" src="images/dishes_3.jpg" alt="tanvir notes">
             </div>
           </div>
 
-          <div class="grid grid-cols-2">
-            <div>
+          <div class="grid sm:grid-cols-2 grid-cols-1 bg-white xl:items-center lg:items-stretch sm:items-center">
+            <div class="sm:order-1 order-2">
               <img class="h-full" src="images/dishes_4.jpg" alt="tanvir notes">
             </div>
-            <div class="py-6 px-7 bg-white">
-              <h5 class="text-black text-2xl font-medium">Grilled Caesar salad, shaved reggiano</h5>
-              <p class="text-[#868e96] py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
-              <p class="text-[#cf1d16] text-2xl">$12.00</p>
+            <div class="xl:py-8 xl:px-9 lg:py-5 lg:px-6 md:py-5 md:px-10 sm:py-4 sm:px-8 px-3 py-6 sm:text-left text-center sm:order-2 order-1">
+              <h5 class="text-black sm:text-2xl text-xl font-medium">Grilled Caesar Salad, Shaved Reggiano</h5>
+              <p class="text-[#868e96] sm:py-3 py-2 text-lg leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
+              <p class="text-[#cf1d16] sm:text-2xl text-xl">$12.00</p>
             </div>
           </div>
 
@@ -242,6 +243,216 @@
     </div>
   </section>
   <!-- menu section end -->
+  <!-- testimonial start -->
+  <section class="lg:my-20 md:my-16 my-12">
+    <div class="container mx-auto sm:px-6 px-4">
+      <!-- testimonial top start -->
+      <div class="text-center">
+        <img class="w-20 mx-auto" src="images/substract.png" alt="tanvir notes">
+        <h2 class="uppercase md:text-3xl text-2xl text-[#cf1d16] font-bold xl:mt-7 md:mt-5 mt-4">Testimonial</h2>
+      </div>
+      <!-- testimonial top end -->
+      <!-- testimonial bottom start -->
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 lg:gap-4 md:gap-6 gap-4 items-start">
+        <!-- item start -->
+        <div class="lg:my-16 md:my-8 my-6">
+          <!-- item text start -->
+          <div>
+            <p class="lg:py-4 py-3 text-lg leading-8">"Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.
+              Dolor, obcaecati? Quis eum
+              minus, sequi atque quisquam
+              ducimus aliquam veritatis
+              nobis cum iusto neque enim
+              explicabo maxime natus
+              doloribus, fuga sunt."</p>
+          </div>
+          <!-- item footer start -->
+          <div class="flex items-center gap-4">
+            <img class="md:w-16 w-14 rounded-full" src="images/person_1.jpg" alt="tanvir notes">
+            <div>
+              <h6 class="md:text-xl text-lg">Melisa Howard</h6>
+              <p class="text-gray-400 md:leading-8 leading-7">CEO, XYZ Company</p>
+            </div>
+          </div>
+          <!-- item footer end -->
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div class="lg:my-16 md:my-8 my-6">
+          <!-- item text start -->
+          <div>
+            <p class="lg:py-4 py-3 text-lg leading-8">"Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.
+              Dolor, obcaecati? Quis eum
+              minus, sequi atque quisquam
+              ducimus aliquam veritatis
+              nobis cum iusto neque enim
+              explicabo maxime natus
+              doloribus, fuga sunt."</p>
+          </div>
+          <!-- item footer start -->
+          <div class="flex items-center gap-4">
+            <img class="md:w-16 w-14 rounded-full" src="images/person_1.jpg" alt="tanvir notes">
+            <div>
+              <h6 class="md:text-xl text-lg">Melisa Howard</h6>
+              <p class="text-gray-400 md:leading-8 leading-7">CEO, XYZ Company</p>
+            </div>
+          </div>
+          <!-- item footer end -->
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div class="lg:my-16 my-0 md:mb-8 mb-6">
+          <!-- item text start -->
+          <div>
+            <p class="lg:py-4 py-3 text-lg leading-8">"Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.
+              Dolor, obcaecati? Quis eum
+              minus, sequi atque quisquam
+              ducimus aliquam veritatis
+              nobis cum iusto neque enim
+              explicabo maxime natus
+              doloribus, fuga sunt."</p>
+          </div>
+          <!-- item footer start -->
+          <div class="flex items-center gap-4">
+            <img class="md:w-16 w-14 rounded-full" src="images/person_1.jpg" alt="tanvir notes">
+            <div>
+              <h6 class="md:text-xl text-lg">Melisa Howard</h6>
+              <p class="text-gray-400 md:leading-8 leading-7">CEO, XYZ Company</p>
+            </div>
+          </div>
+          <!-- item footer end -->
+        </div>
+        <!-- item end -->
+      </div>
+      <!-- testimonial bottom end -->
+    </div>
+  </section>
+  <!-- testimonial end -->
+  <!-- blog start -->
+  <section class="lg:py-20 md:py-16 py-12 bg-gray-50">
+    <div class="container mx-auto sm:px-6 px-4">
+      <!-- blog top start -->
+      <div class="text-center">
+        <img class="w-20 mx-auto" src="images/substract.png" alt="tanvir notes">
+        <h2 class="uppercase md:text-3xl text-2xl text-[#cf1d16] font-bold xl:mt-7 md:mt-5 mt-4">Blog</h2>
+      </div>
+      <!-- blog top end -->
+      <!-- blog bottom start -->
+      <div class="grid lg:grid-cols-2 grid-cols-1 xl:my-20 lg:my-16 md:my-14 sm:my-10 my-8 gap-4">
+        <!-- item start -->
+        <div>
+          <div class="grid sm:grid-cols-2 grid-cols-1 bg-white xl:items-center lg:items-stretch sm:items-center">
+            <div>
+              <img class="h-full" src="images/dishes_2.jpg" alt="tanvir notes">
+            </div>
+            <div class="xl:py-8 xl:px-9 lg:py-5 lg:px-6 md:py-5 md:px-10 sm:py-4 sm:px-8 px-3 py-6 sm:text-left text-center">
+              <h5 class="text-black sm:text-2xl text-xl font-medium">Grilled Caesar Salad, Shaved Reggiano</h5>
+              <p class="text-[#868e96] sm:py-3 py-2 text-lg leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
+              <p class="text-[#cf1d16] sm:text-2xl text-xl">$12.00</p>
+            </div>
+          </div>
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div>
+          <div class="grid sm:grid-cols-2 grid-cols-1 bg-white xl:items-center lg:items-stretch sm:items-center">
+            <div>
+              <img class="h-full" src="images/dishes_3.jpg" alt="tanvir notes">
+            </div>
+            <div class="xl:py-8 xl:px-9 lg:py-5 lg:px-6 md:py-5 md:px-10 sm:py-4 sm:px-8 px-3 py-6 sm:text-left text-center">
+              <h5 class="text-black sm:text-2xl text-xl font-medium">Grilled Caesar Salad, Shaved Reggiano</h5>
+              <p class="text-[#868e96] sm:py-3 py-2 text-lg leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus odio...</p>
+              <p class="text-[#cf1d16] sm:text-2xl text-xl">$12.00</p>
+            </div>
+          </div>
+        </div>
+        <!-- item end -->
+      </div>
+      <!-- blog bottom end -->
+    </div>
+  </section>
+  <!-- blog end -->
+  <!-- newsletter start -->
+  <section class="lg:pb-20 md:pb-16 pb-12 bg-gray-50">
+    <div class="container mx-auto sm:px-6 px-4">
+      <div class="lg:w-1/2 md:w-3/4 w-full xl:px-16 lg:px-0 md:px-4 sm:px-12 mx-auto text-center">
+        <!-- text start -->
+        <div>
+          <h4 class="text-2xl mb-0">Subscribe Newsletter</h4>
+          <p class="text-lg leading-8 text-gray-400 py-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut accusantium tenetur nemo repudiandae sint
+            reprehenderit.</p>
+        </div>
+        <!-- text end -->
+        <!-- form start -->
+        <div>
+          <form action="#" method="post">
+            <div class="sm:flex justify-between w-full">
+              <input class="sm:w-3/4 w-full bg-white px-4 py-3 border-2 border-gray-800" type="email" placeholder="Enter Email Address">
+              <button type="submit"
+                class="sm:inline-block block sm:mx-0 mx-auto px-4 py-3 sm:mt-0 mt-4 bg-[#cf1d16] text-white font-semibold uppercase hover:bg-black transition duration-300">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <!-- form end -->
+      </div>
+    </div>
+  </section>
+  <!-- newsletter end -->
+  <!-- footer start -->
+  <section class="lg:pb-20 md:pb-16 pb-12 bg-gray-800">
+    <div class="container mx-auto sm:px-6 px-4">
+      <!-- footer top start -->
+      <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+        <!-- item start -->
+        <div class="lg:pt-20 md:pt-16 pt-12">
+          <h3 class="text-lg text-white md:mb-8 mb-6 font-semibold">About US</h3>
+          <p class="text-sm text-gray-300 leading-7 pb-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa obcaecati optio distinctio quibusdam! Ullam molestiae asperiores eligendi culpa et deserunt!</p>
+          <div class="flex">
+            <a href="#" class="text-[#cf1d16] border-2 border-[#cf1d16] rounded-full md:px-[10px] md:py-[7px] px-[8px] py-[5px] mx-1"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-[#cf1d16] border-2 border-[#cf1d16] rounded-full md:px-[14px] md:py-[7px] px-[10px] py-[5px] mx-1"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-[#cf1d16] border-2 border-[#cf1d16] rounded-full md:px-[10px] md:py-[7px] px-[8px] py-[5px] mx-1"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-[#cf1d16] border-2 border-[#cf1d16] rounded-full md:px-[10px] md:py-[7px] px-[8px] py-[5px] mx-1"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div class="lg:pt-20 md:pt-16 pt-12">
+          <h3 class="text-lg text-white md:mb-8 mb-6 font-semibold">Opening Hours</h3>
+          <p class="text-sm text-gray-300 leading-7">Sunday-Thursday</p>
+          <p class="text-sm text-gray-300 leading-7">5AM - 10PM</p>
+          <div class="lg:pt-12 md:pt-10 pt-8">
+            <h3 class="text-lg text-white md:mb-8 mb-6 font-semibold">Contact Info</h3>
+            <p class="text-sm text-gray-300 leading-7">Address:</p>
+            <p class="text-sm text-white leading-7 pb-1">34 Street Name, City Name Here, Bangladesh</p>
+            <p class="text-sm text-gray-300 leading-7">Telephone:</p>
+            <p class="text-sm text-white leading-7 pb-1">+012 345 678 900</p>
+            <p class="text-sm text-gray-300 leading-7">Email:</p>
+            <p class="text-sm text-white leading-7 pb-1">demo@demo.com</p>
+          </div>
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div class="lg:pt-20 md:pt-16 pt-12">
+          <h3 class="text-lg text-white md:mb-8 mb-6 font-semibold">Quick Links</h3>
+          <p class="pb-3"><a href="#" class="text-[#cf1d16] hover:underline">About</a></p>
+          <p class="pb-3"><a href="#" class="text-[#cf1d16] hover:underline">Terms of Use</a></p>
+          <p class="pb-3"><a href="#" class="text-[#cf1d16] hover:underline">Disclaimers</a></p>
+          <p class="pb-3"><a href="#" class="text-[#cf1d16] hover:underline">Contact</a></p>
+        </div>
+        <!-- item end -->
+      </div>
+      <!-- footer top end -->
+      <!-- footer bottom start -->
+      <div class="lg:pt-20 md:pt-14 pt-10">
+        <p class="text-center text-lg text-gray-300">Copyright &copy; 2023. All rights reserved | This website is coded with &#9829; by <a href="#" class="text-[#cf1d16]">Tanvir Ahmed</a></p>
+      </div>
+      <!-- footer bottom end -->
+    </div>
+  </section>
+  <!-- footer end -->
 
 
 
